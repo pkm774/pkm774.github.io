@@ -6,25 +6,20 @@
     <meta name="description" content="Personal portfolio Website" />
     <meta name="author" content="Prabhat Kumar Mishras" />
     <link rel="icon" href="images/favicon.ico" />
-    <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Lobster&family=Pacifico&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Inconsolata:wght@500&family=PT+Serif&family=Roboto+Slab&family=Roboto:wght@300&family=Sacramento&display=swap"
       rel="stylesheet"
     />
+    <!-- Bootstrap css -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
@@ -38,17 +33,20 @@
 
     <div class="middle-container">
       <div class="profile">
-        <img
-          src="images\model.png"
-          alt="profile picture"
-          width="150"
-          height="150"
-        />
-        <h2>Hello</h2>
-        <p>
-          Electronics Engineering student with a keen interest in software
-          development
-        </p>
+        <article>
+          <figure>
+            <img
+              class="image-model"
+              src="images\model.png"
+              alt="profile picture"
+            />
+          </figure>
+          <h2 class="greeting">Hello</h2>
+          <p>
+            Electronics Engineering student with a keen interest in software
+            development
+          </p>
+        </article>
       </div>
       <hr />
       <div class="skills">
@@ -59,7 +57,7 @@
             src="images/computer.png"
             alt="coumpter-img"
           />
-          <h3 class="hard"><u>Hard Skills</u></h3>
+          <h3 class="hard">Hard Skills</h3>
           <p>
             I know C++, Python, and object-oriented programming (OOP) and have
             experience with various integrated development environments (IDEs).
@@ -70,7 +68,7 @@
         </div>
         <div class="skill-row">
           <img class="softskills" src="images/skills.png" alt="skills-img" />
-          <h3 class="soft"><u>Soft Skills</u></h3>
+          <h3 class="soft">Soft Skills</h3>
           <p>
             In addition to my programming and computer skills, I am proficient
             in verbal and written communication. I have worked on many projects
@@ -84,15 +82,24 @@
 
     <hr />
 
-    <div class="bottom-container">
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3 class="btnmssg">
-          If you love programming as much as I do then feel free to contact.
-        </h3>
-        <a class="btn" href="mailto:mprabhat774@gmail.com">CONTACT ME</a>
+    <section class="bottom">
+      <div class="bottom-container">
+        <article>
+          <header class="contact-header">
+            <h2>Get In Touch</h2>
+            <h3 class="btnmssg">
+              If you are interested or love programming as much as I do and want
+              a coding adventure together then feel free to contact me.
+            </h3>
+          </header>
+          <p>
+            <a class="btn btn-outline-success" href="mailto:rpkm1914@gmail.com"
+              >MESSAGE ME</a
+            >
+          </p>
+        </article>
       </div>
-    </div>
+    </section>
 
     <div class="footer">
       <a class="footer-link" href="https://www.linkedin.com/in/pkm774/"
