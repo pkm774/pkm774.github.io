@@ -161,7 +161,7 @@ a:hover {
 .footer {
   position: relative;
   padding-top: 50px;
-  background-color: #D6EFED;
+  background-color: #75bab4;
   padding: 60px 0 20px;
 }
 
@@ -173,4 +173,9 @@ a:hover {
 .copyright {
   margin: 20px 0 0 0;
   font-size: 12px;
+}
+
+.navbar-brand {
+  color: #1a5e53;
+  font-family: 'Comfortaa', cursive;
 }
