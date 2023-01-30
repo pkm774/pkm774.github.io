@@ -50,32 +50,21 @@ a:hover {
   color: #34B3F1;
 }
 
-.top-cloud {
-  position: absolute;
-  top: 28px;
-  right: 200px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 200px;
-}
-
-.mountain {
-  position: relative;
-  top: 1%;
+.greet {
+  font-size: 100px;
 }
 
 .profile-p {
   color: #5A8F7B;
   font-family: 'Roboto Slab', serif;
-  font-size: 120%
+  font-size: 120%;
 }
 
 .top-container {
-  background-color: #D6EFED;
+  background-color: #cfe8e5;
   position: relative;
-  padding-top: 100px;
+  padding-top: 200px;
+  padding-bottom: 250px;
   width: 100%;
 }
 
@@ -94,7 +83,7 @@ a:hover {
   line-height: 2;
 }
 
-.greeting{
+.greeting {
   margin: 5% 0 2%;
 }
 
@@ -110,9 +99,11 @@ a:hover {
 }
 
 .hardskills {
-  width: 19%;
+  width: 20%;
   float: left;
   margin-right: 30px;
+  position: relative;
+  top: 7.5px;
 }
 
 .softskills {
@@ -121,6 +112,8 @@ a:hover {
   text-align: right;
   margin-top: 10px;
   margin-left: 30px;
+  position: relative;
+  bottom: 10px;
 }
 
 .hard {
@@ -135,7 +128,7 @@ a:hover {
   width: 100%;
 }
 
-.bottom{
+.bottom {
   text-align: center;
 }
 
@@ -154,18 +147,18 @@ a:hover {
   font-weight: normal;
 }
 
-.btn{
+.btn {
   margin: 0 0 100px 0;
 }
 
 .footer {
   position: relative;
   padding-top: 50px;
-  background-color: #75bab4;
-  padding: 60px 0 20px;
+  background-color: #bfe2df;
+  padding: 50px 0 20px;
 }
 
-.footer-link{
+.footer-link {
   font-size: 18px;
   font-family: 'Comfortaa', cursive;
 }
@@ -178,4 +171,10 @@ a:hover {
 .navbar-brand {
   color: #1a5e53;
   font-family: 'Comfortaa', cursive;
+}
+
+.nav-link {
+  font-family: 'Comfortaa', cursive;
+  font-size: small;
+  font-weight: 150;
 }
